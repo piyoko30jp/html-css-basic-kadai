@@ -12,16 +12,15 @@ a {
 header {
     margin-bottom: 20px;
     background-color: rgb(244, 79, 79);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    h1 {
-        color: rgb(255, 255, 255);
-    }
+    text-align: center;
 }
 
+h1 {
+    color: rgb(255, 255, 255);
+    }
+
 main {
-    margin: 10px;
+    padding: 10px;
 }
 
 #parent {
@@ -62,9 +61,7 @@ h2::before {
 
 footer {
     background-color: rgb(244, 79, 79);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 a:link {
@@ -89,6 +86,6 @@ a:hover {
     }
 
     #parent {
-        display: block;
+        flex-direction: column;
     }
 }
